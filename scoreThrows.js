@@ -1,8 +1,3 @@
-// 0 points: radius above 10
-// 5 points: radius between 5 and 10 inclusive
-// 10 points: radius less than 5
-
-
 function scoreThrows(array) {
   let points = 0;
   let lessThan5 = true;
@@ -23,8 +18,4 @@ function scoreThrows(array) {
   return points;
 }
 
-let r1 = [1, 5, 11]; //15
-let r2 = [15, 20, 30]; //0
-let r3 = [1, 2, 3, 4]; //140
-
-console.log(scoreThrows(r3));
+module.exports = scoreThrows;
