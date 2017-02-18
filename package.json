@@ -1,0 +1,17 @@
+{
+  "name": "throwing-darts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scoreThrows.js",
+  "scripts": {
+    "start": "nodemon .",
+    "test": "mocha",
+    "test-watch": "mocha --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}

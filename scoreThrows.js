@@ -23,8 +23,8 @@ function scoreThrows(array) {
   return points;
 }
 
-let r1 = [1, 5, 11]; //15ss
+let r1 = [1, 5, 11]; //15
 let r2 = [15, 20, 30]; //0
 let r3 = [1, 2, 3, 4]; //140
 
-console.log(scoreThrows([]));
+console.log(scoreThrows(r3));
